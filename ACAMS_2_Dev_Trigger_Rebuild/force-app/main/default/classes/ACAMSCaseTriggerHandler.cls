@@ -4,7 +4,6 @@ public with sharing class ACAMSCaseTriggerHandler extends CCAviTriggerHandler {
     private List<Case> oldList;
     private Map<Id, Case> newMap;
     private Map<Id, Case> oldMap;
-    private Map<Id, Case> oldMap2;
 
     public ACAMSCaseTriggerHandler() {
         super();
